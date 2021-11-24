@@ -16,7 +16,7 @@ const Authors = (props) => {
             This is my Authors component
             <div>
                 {props.authors && props.authors.map(author => {
-                    return <p key={author._id} > {author.name} </p>
+                    return <p key={author._id}> {author.name} </p>
                 })}
             </div>
         </div>
